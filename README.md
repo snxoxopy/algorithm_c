@@ -8,4 +8,4 @@
 
 ### Lv.1
 
-1. [로또의 최고 순위와 최저 순위]()
+1. [로또의 최고 순위와 최저 순위](https://github.com/snxoxopy/algorithm_c/blob/prg_lv1/77484.c)  
