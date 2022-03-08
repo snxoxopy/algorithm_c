@@ -1,4 +1,4 @@
-# algorithm_python
+# algorithm_c
 
 ## BOJ
 [![Solved.ac tier](http://mazassumnida.wtf/api/mini/generate_badge?boj=snoo_py)](https://solved.ac/profile/snoo_py)  
