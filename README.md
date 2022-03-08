@@ -4,6 +4,10 @@
 [![Solved.ac tier](http://mazassumnida.wtf/api/mini/generate_badge?boj=snoo_py)](https://solved.ac/profile/snoo_py)  
 [![solved.ac tier](http://mazassumnida.wtf/api/v2/generate_badge?boj=snoo_py)](https://solved.ac/profile/snoo_py)
 
+### Queue
+
+1. [큐2](https://github.com/snxoxopy/algorithm_c/blob/queue/boj18258.c)  
+
 ## programmers
 
 ### Lv.1
