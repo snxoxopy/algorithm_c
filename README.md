@@ -7,6 +7,7 @@
 ### Queue
 
 1. [큐2](https://github.com/snxoxopy/algorithm_c/blob/queue/boj18258.c)  
+2. [카드2](https://github.com/snxoxopy/algorithm_c/blob/queue/boj2164.c)  
 
 ## programmers
 
