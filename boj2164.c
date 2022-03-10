@@ -19,39 +19,21 @@ Debug: 분
 */
  
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
-#define size 500000
-
-int main(){
-    /* write you code here */
-
-    int n, i, rear, q[size];
-    int front = 0;
-    scanf("%d", &n);
-
-    // 숫자 queue에 담기
-    for(i = 0; i < n; ++i) q[i] = i + 1;
-    rear = n - 1;
-
-    while(1){
-        
-        // header 이동
-        front = (front + 1) % n;
-        if(rear == front) break;
-        rear = (rear + 1) % n;
-
-        
-        // 맨위 카드 맨 아래로 옮기기
-        q[rear] = q[front];
-
-        // 맨위 카드 버리기
-        front = (front + 1) % n;
-        if(rear == front) break;
-
-    }
+int main()
+{
+    int n, p = 1;
+    // p(value) = index -> 숫자는 순서대로 놓여있기때문
     
-    printf("%d\n", q[rear]);
-    return 0;
+    scanf("%d",&n);
+
+    // 두 가지 수행 반복 -> 2의 제곱을 기준으로 계산 
+    while(p < n) p *= 2;
+    
+    // n이 증가할 때마다 p(2의 제곱)을 기준으로 남게 되는 짝수가 결정됨
+    // 2 * n - p ->  기준 2의 제곱 값과 얼마나 차이가 나는지 계산, p >= 2n - p
+    // 최종 남게되는 값 = p이하이면서 입력 값과 차이나는 정도, 홀수는 의미 없으므로 입력의 2배한다.
+
+    // p - n ? 그 외 : 2의 제곱 일 때
+    printf("%d", p - n ? 2 * n - p : p);
 }
