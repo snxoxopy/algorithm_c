@@ -36,4 +36,5 @@ int main()
 
     // p - n ? 그 외 : 2의 제곱 일 때
     printf("%d", p - n ? 2 * n - p : p);
+    return 0;
 }
