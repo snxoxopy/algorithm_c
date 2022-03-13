@@ -8,7 +8,7 @@
 
 1. [큐2](https://github.com/snxoxopy/algorithm_c/blob/queue/boj18258.c)  
 2. [카드2](https://github.com/snxoxopy/algorithm_c/blob/queue/boj2164.c)  
-3. [요세푸스 문제0](https://github.com/snxoxopy/algorithm_c/commit/7f2d95d0a0f2b7683d048bffbf30a77e976bf9d0)  
+3. [요세푸스 문제0](https://github.com/snxoxopy/algorithm_c/blob/queue/boj11866.c)  
 
 ## programmers
 
